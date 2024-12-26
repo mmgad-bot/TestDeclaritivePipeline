@@ -4,6 +4,7 @@ pipeline {
     stages {
         stage('BUild') {
             steps {
+                echo "Getting from GITHUB"
                 echo 'BUild  compeleted'
             }
         }
